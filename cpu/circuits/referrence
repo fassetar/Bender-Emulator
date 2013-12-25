@@ -1,0 +1,31 @@
+/*EG::move(char r1, G8SR mo)
+{
+        int reg;
+        reg=regConv(r1);
+        rgstr[reg]=mo;
+}
+
+void REG::move(char dest, G8SR mAdd1, G8SR mAdd2)
+{
+        int ddd;
+        ddd=regConv(dest);
+        rgstr[ddd]=memory.getMem(mAdd1, mAdd2);
+}
+
+void REG::move(G8SR madd1, G8SR madd2, char source)
+{
+        int sss;
+        sss=regConv(source);
+        memory.putMem(madd1, madd2, rgstr[sss]);
+}
+
+void REG::moveL(char ddd, char high, char low)
+{
+        int reg, hi, lo;
+        reg=regConv(ddd);
+        hi=regConv(high);
+        lo=regConv(low);
+        rgstr[reg]=memory.getMem(rgstr[hi], rgstr[lo]);
+}
+*/
+instruction set from the register, flipflop of 8 bits
