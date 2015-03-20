@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/fassetar/Bender-Emulator.svg)](https://travis-ci.org/fassetar/Bender-Emulator)
 This is the repository for the CSCS2650 Computer Organization CPU Simulator,
 a project being undertaken in the Spring 2011 semester.
 
