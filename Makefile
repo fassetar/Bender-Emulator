@@ -1,11 +1,11 @@
 # Makefile for CPU project
 CXX = g++ $(CFLAGS) $(OPTS) $(INC)
-INC = -I include/
+INC = -I src/include/
 CFLAGS = -Wall 
 LIBS = 
 OPTS =
 DEBUG = 
-OBJ = main.o 
+OBJ = src/main.o 
 LIBRARIES = 
 COMPONENTS = libboolops libflipflops
 BIN = cpu  
