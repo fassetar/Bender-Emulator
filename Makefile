@@ -53,10 +53,7 @@ libflipflops:
 
 help:
 	@echo
-	@echo "*************************[ CPU Project ]********************************"
-	@echo "** CSCS 2650 Computer Organization               Spring 2011 Semester **"
-	@echo "** APIs/Documentation:          http://lab46.corning-cc.edu/notes/asm **"
-	@echo "**                                                                    **"
+	@echo "*************************[ CPU Project ]********************************"	
 	@echo "** This is the Makefile to handle many of the clerical tasks of the   **"
 	@echo "** code. Please use one of the available options listed:              **"
 	@echo "**                                                                    **"
@@ -74,9 +71,6 @@ help:
 components-help:
 	@echo
 	@echo "*************************[ CPU Project ]********************************"
-	@echo "** CSCS 2650 Computer Organization               Spring 2011 Semester **"
-	@echo "** APIs/Documentation:          http://lab46.corning-cc.edu/notes/asm **"
-	@echo "**                                                                    **"
 	@echo "** This is the Makefile to handle many of the clerical tasks of the   **"
 	@echo "** code. Please use one of the available options listed:              **"
 	@echo "**                                                                    **"
