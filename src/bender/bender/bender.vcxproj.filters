@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\6502">
+      <UniqueIdentifier>{e24df748-a1aa-4fea-b5c5-7e42a0203876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\6502\memory">
+      <UniqueIdentifier>{fa530aaa-8b61-4658-a63d-72b76bbc8bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\6502\opcodes">
+      <UniqueIdentifier>{a25eb76a-6711-463c-8a24-fa66122a7449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\6502\register">
+      <UniqueIdentifier>{a0b50a61-3a15-415c-b4b4-8c6a2277a70a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\memory\memory.cc">
+      <Filter>Source Files\6502\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\ADC.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\TYA.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\AND.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\ASL.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\BCC.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\BCS.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\BEQ.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\BIT.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\BMI.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\BNE.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\BPL.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\BRK.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\BVC.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\BVS.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\CLC.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\CLD.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\CLI.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\CLV.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\CMP.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\CPX.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\CPY.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\DEC.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\DEX.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\DEY.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\EOR.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\INC.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\interpreter.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\INX.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\INY.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\JMP.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\JRS.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\LDA.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\LDX.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\LDY.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\LSR.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\NOR.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\ORA.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\PHA.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\PHP.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\PLA.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\PLP.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\ROL.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\ROR.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\RTI.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\RTS.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\SBC.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\SEC.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\SED.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\SEI.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\STA.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\STX.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\STY.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\TAX.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\TAY.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\TSX.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\TXA.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\opcodes\TXS.cc">
+      <Filter>Source Files\6502\opcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\6502\register\register.cc">
+      <Filter>Source Files\6502\register</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\alu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\and.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cpumem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\fadder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\fadder.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ffnand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ffnor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ffxnor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\g8sr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\globalreg6502.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\hadder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mem256kB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\nand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\nor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\not.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\opcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\or.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\r6502.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\register.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\shift.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xnor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\xor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

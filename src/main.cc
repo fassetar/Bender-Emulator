@@ -7,14 +7,14 @@ int main()
 	char location[12];
 
 	printf("----------------------------------------------------------------\n");
-	printf("- CSCS2650 Computer Organization - Spring 2011 - CPU Simulator -\n");
+	printf("- Bender Emulator by Anthony Fassett						    \n");
 	printf("----------------------------------------------------------------\n");
-	printf("- URL: http://lab46.corning-cc.edu/notes/asm                   -\n");
+	printf("- URL: https://github.com/fassetar/Bender-Emulator             -\n");
 	printf("----------------------------------------------------------------\n");
 	printf("- Press '?' for command help menu.                             -\n");
 	printf("----------------------------------------------------------------\n");
 
-	sprintf(location, "simulator");
+	sprintf_s(location, "simulator");
 
 	while (quit != true)
 	{
@@ -49,10 +49,10 @@ int main()
 		}
 
 		if ((input == 'C') || (input == 'c'))
-			sprintf(location, "cpu");
+			sprintf_s(location, "cpu");
 
 		if ((input == 'M') || (input == 'm'))
-			sprintf(location, "memory");
+			sprintf_s(location, "memory");
 
 		if ((input == 'Q') || (input == 'q'))
 			quit = true;

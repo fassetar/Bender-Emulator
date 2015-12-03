@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A1BA2998-A062-4ED2-BC7D-668A798FEAED}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>bender</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\6502\interpreter.cc" />
+    <ClCompile Include="..\..\6502\memory\memory.cc" />
+    <ClCompile Include="..\..\6502\opcodes\ADC.cc" />
+    <ClCompile Include="..\..\6502\opcodes\AND.cc" />
+    <ClCompile Include="..\..\6502\opcodes\ASL.cc" />
+    <ClCompile Include="..\..\6502\opcodes\BCC.cc" />
+    <ClCompile Include="..\..\6502\opcodes\BCS.cc" />
+    <ClCompile Include="..\..\6502\opcodes\BEQ.cc" />
+    <ClCompile Include="..\..\6502\opcodes\BIT.cc" />
+    <ClCompile Include="..\..\6502\opcodes\BMI.cc" />
+    <ClCompile Include="..\..\6502\opcodes\BNE.cc" />
+    <ClCompile Include="..\..\6502\opcodes\BPL.cc" />
+    <ClCompile Include="..\..\6502\opcodes\BRK.cc" />
+    <ClCompile Include="..\..\6502\opcodes\BVC.cc" />
+    <ClCompile Include="..\..\6502\opcodes\BVS.cc" />
+    <ClCompile Include="..\..\6502\opcodes\CLC.cc" />
+    <ClCompile Include="..\..\6502\opcodes\CLD.cc" />
+    <ClCompile Include="..\..\6502\opcodes\CLI.cc" />
+    <ClCompile Include="..\..\6502\opcodes\CLV.cc" />
+    <ClCompile Include="..\..\6502\opcodes\CMP.cc" />
+    <ClCompile Include="..\..\6502\opcodes\CPX.cc" />
+    <ClCompile Include="..\..\6502\opcodes\CPY.cc" />
+    <ClCompile Include="..\..\6502\opcodes\DEC.cc" />
+    <ClCompile Include="..\..\6502\opcodes\DEX.cc" />
+    <ClCompile Include="..\..\6502\opcodes\DEY.cc" />
+    <ClCompile Include="..\..\6502\opcodes\EOR.cc" />
+    <ClCompile Include="..\..\6502\opcodes\INC.cc" />
+    <ClCompile Include="..\..\6502\opcodes\INX.cc" />
+    <ClCompile Include="..\..\6502\opcodes\INY.cc" />
+    <ClCompile Include="..\..\6502\opcodes\JMP.cc" />
+    <ClCompile Include="..\..\6502\opcodes\JRS.cc" />
+    <ClCompile Include="..\..\6502\opcodes\LDA.cc" />
+    <ClCompile Include="..\..\6502\opcodes\LDX.cc" />
+    <ClCompile Include="..\..\6502\opcodes\LDY.cc" />
+    <ClCompile Include="..\..\6502\opcodes\LSR.cc" />
+    <ClCompile Include="..\..\6502\opcodes\NOR.cc" />
+    <ClCompile Include="..\..\6502\opcodes\ORA.cc" />
+    <ClCompile Include="..\..\6502\opcodes\PHA.cc" />
+    <ClCompile Include="..\..\6502\opcodes\PHP.cc" />
+    <ClCompile Include="..\..\6502\opcodes\PLA.cc" />
+    <ClCompile Include="..\..\6502\opcodes\PLP.cc" />
+    <ClCompile Include="..\..\6502\opcodes\ROL.cc" />
+    <ClCompile Include="..\..\6502\opcodes\ROR.cc" />
+    <ClCompile Include="..\..\6502\opcodes\RTI.cc" />
+    <ClCompile Include="..\..\6502\opcodes\RTS.cc" />
+    <ClCompile Include="..\..\6502\opcodes\SBC.cc" />
+    <ClCompile Include="..\..\6502\opcodes\SEC.cc" />
+    <ClCompile Include="..\..\6502\opcodes\SED.cc" />
+    <ClCompile Include="..\..\6502\opcodes\SEI.cc" />
+    <ClCompile Include="..\..\6502\opcodes\STA.cc" />
+    <ClCompile Include="..\..\6502\opcodes\STX.cc" />
+    <ClCompile Include="..\..\6502\opcodes\STY.cc" />
+    <ClCompile Include="..\..\6502\opcodes\TAX.cc" />
+    <ClCompile Include="..\..\6502\opcodes\TAY.cc" />
+    <ClCompile Include="..\..\6502\opcodes\TSX.cc" />
+    <ClCompile Include="..\..\6502\opcodes\TXA.cc" />
+    <ClCompile Include="..\..\6502\opcodes\TXS.cc" />
+    <ClCompile Include="..\..\6502\opcodes\TYA.cc" />
+    <ClCompile Include="..\..\6502\register\register.cc" />
+    <ClCompile Include="..\..\main.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\alu.h" />
+    <ClInclude Include="..\..\include\and.h" />
+    <ClInclude Include="..\..\include\cpu.h" />
+    <ClInclude Include="..\..\include\cpumem.h" />
+    <ClInclude Include="..\..\include\fadder.h" />
+    <ClInclude Include="..\..\include\fadder.hh" />
+    <ClInclude Include="..\..\include\ffnand.h" />
+    <ClInclude Include="..\..\include\ffnor.h" />
+    <ClInclude Include="..\..\include\ffxnor.h" />
+    <ClInclude Include="..\..\include\g8sr.h" />
+    <ClInclude Include="..\..\include\globalreg6502.h" />
+    <ClInclude Include="..\..\include\hadder.h" />
+    <ClInclude Include="..\..\include\mem256kB.h" />
+    <ClInclude Include="..\..\include\memory.h" />
+    <ClInclude Include="..\..\include\nand.h" />
+    <ClInclude Include="..\..\include\nor.h" />
+    <ClInclude Include="..\..\include\not.h" />
+    <ClInclude Include="..\..\include\opcode.h" />
+    <ClInclude Include="..\..\include\or.h" />
+    <ClInclude Include="..\..\include\r6502.h" />
+    <ClInclude Include="..\..\include\register.h" />
+    <ClInclude Include="..\..\include\shift.h" />
+    <ClInclude Include="..\..\include\xnor.h" />
+    <ClInclude Include="..\..\include\xor.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
